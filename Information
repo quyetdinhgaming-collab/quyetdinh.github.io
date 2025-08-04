@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Đinh Quyết - Giới thiệu cá nhân</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #444, #888);
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: white;
+      padding: 40px 30px;
+      border-radius: 10px;
+      text-align: center;
+      max-width: 400px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    }
+
+    .avatar {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-top: -80px;
+      border: 4px solid white;
+    }
+
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 22px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .subtitle {
+      font-weight: bold;
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background-color: #444;
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-bottom: 20px;
+      display: inline-block;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background-color: #222;
+    }
+
+    p {
+      font-size: 14px;
+      color: #333;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="avatar.jpg" alt="Ảnh đại diện" class="avatar">
+    <h1>ĐINH QUYẾT</h1>
+    <div class="subtitle">Project Manager, Photographer, and Father in Bắc Ninh</div>
+    <a href="mailto:dinhquyet@example.com" class="btn">📧 Contact me</a>
+    <p>Hey, I’m Đinh. I’m a project manager living in Bắc Ninh. I am a fan of development, photography, and music. You can contact me by clicking the button above.</p>
+  </div>
+
+</body>
+</html>
